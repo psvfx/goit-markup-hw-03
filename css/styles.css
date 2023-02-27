@@ -39,12 +39,13 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  border: none;
 }
 .container {
-  max-width: 1128px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  /* outline: 1px solid green; */
+  outline: 1px solid green;
 }
 .logo {
   font-family: var(--secondary-font);
@@ -161,7 +162,7 @@ img {
   text-align: center;
   padding: 188px 0;
   background: var(--background-color);
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
 }
 .hero-title {
@@ -193,7 +194,6 @@ img {
 .advantages-list {
   display: flex;
   gap: 24px;
-  flex-grow: 1;
 }
 /* .advantages-item {
 } */
@@ -203,11 +203,11 @@ img {
 }
 .advantages-text {
   color: var(--main-text-color);
-  align-items: stretch;
 }
 /* -------------Doing------------- */
-/* .doing {
-} */
+.doing {
+  padding-bottom: 120px;
+}
 .doing-title {
   color: #2e2f42;
   margin-bottom: 72px;
@@ -239,12 +239,10 @@ img {
 .team-content {
   padding: 32px;
   background: #ffffff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
   border-radius: 0px 0px 4px 4px;
 }
-/* .team-link {
-} */
 .team-subtitle {
   text-align: center;
   color: var(--subtitle-color);
@@ -256,12 +254,13 @@ img {
 }
 /* --Portfolio-Filter+Projects-- */
 .filter {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .filter-list {
   display: flex;
   gap: 24px;
-  padding: 96px 0 72px;
+  margin-bottom: 72px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -309,7 +308,7 @@ img {
 .footer {
   background: var(--background-color);
   padding: 100px 0;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
 }
 .footer-logo {
