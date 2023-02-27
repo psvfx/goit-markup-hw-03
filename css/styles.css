@@ -45,7 +45,7 @@ img {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 }
 .logo {
   font-family: var(--secondary-font);
@@ -94,13 +94,13 @@ img {
   overflow: hidden;
 }
 /* -------------Header------------- */
-/* header {
-} */
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
   display: flex;
